@@ -8,9 +8,12 @@ gem 'lotus-model',   '~> 0.4'
 
 gem 'slim'
 
+gem 'faraday'
+
 group :test do
   gem 'rspec'
   gem 'capybara'
+  gem 'pact'
 end
 
 group :production do
